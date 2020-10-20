@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт портфолио - веб-дизайнер</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:wght@300;400;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/blog-page.css">
+    <link rel="stylesheet" href="./css/blog-page-mobile.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+</head>
+
+<body>
+    <header class="header-blog">
+        <div class="container">
+            <nav class="nav">
+                <a href="/" class="nav-logo">
+                    <span class="nav-logo-span">P</span>oncho
+                </a>
+                <div class="nav-menu">
+                    <ul class="nav-menu-list">
+                        <li class="nav-menu-item"><a href="#" class="nav-menu-link">Home</a></li>
+                        <li class="nav-menu-item"><a href="#" class="nav-menu-link">Work</a></li>
+                        <li class="nav-menu-item"><a href="blog.html" class="nav-menu-link">Blog</a></li>
+                        <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-menu__hire-btn">Hire me!</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu">
+                    <a class="mobile-menu-triger" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                    <div class="mobile-menu-popup">
+                        <a class="mobile-menu-close" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                        <ul class="mobile-menu-list">
+                            <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Home</a></li>
+                            <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Work</a></li>		
+                            <li class="mobile-menu-item"><a class="mobile-menu-link" href="blog.html">Blog</a></li>
+                            <li class="mobile-menu-item"><a class="mobile-menu-link mobile-menu__hire-btn" href="#">Hire me!</a></li>
+                        </ul>						
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="header-blog-page">
+            <div class="container">
+                <div class="header-blog-page-text-wrap">
+                    <h2 class="header-blog-page-title">
+                        Blog
+                    </h2>
+                    <h2 class="header-blog-page-desc">
+                        Various design articles to help you in your work!
+                    </h2>
+                </div>                
+            </div>            
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <div class="container">
+                <div class="blog-page-wrap">
+                    <aside class="sidebar">
+                        <div class="sidebar-author-wrap">
+                            <div class="sidebar-author">
+                                <img src="./img/blog-article-img/author-img.jpg" alt="" class="sidebar-author-img">
+                                <p class="sidebar-author-name">Ilya Shpakovsky</p>
+                                <p class="sidebar-author-prof">Web designer</p>
+                                <div class="author-social">
+                                    <a class="author-links" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                    <a class="author-links" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a class="author-links" href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                    <a class="author-links" href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="sidebar-contact">
+                                <p class="sidebar-contact-title">Contact with me</p>
+                                <p class="sidebar-contact-desc">Do you have any questions? Write a comment!</p>
+                                <a id="write-me-btn" href="#" class="sidebar-contact-btn">Write me...</a>
+    
+                                <div class="sidebar-contact-form-wrap none">
+                                    <form action="" id="sidebar-contact-form" class="sidebar-contact-form">
+                                         <input class="sidebar-contact-input" type="text" placeholder="Name">
+                                         <input class="sidebar-contact-input" type="text" placeholder="E-mail">
+                                         <textarea class="sidebar-contact-text" rows="10" name="text" placeholder="Enter your message..."></textarea>
+                                         <button class="sidebar-contact-form-btn" type="submit">Send</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+    
+                    <div class="article">
+                        <h1 class="article-title">
+                            Vestibulum egestas in risus eget varius
+                        </h1>
+                        <div class="article-author-inf">
+                            <p class="article-author-name">Ilya Shpakovsky</p>
+                            <p class="article-date">31.07.2020</p>
+                        </div>
+                        <div class="article-img-wrap">
+                            <img src="./img/blog-article-img/post-img.jpg" alt="" class="article-img">
+                        </div>
+                        <div class="article-text-wrap">
+                            <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt, urna ac iaculis gravida, augue neque vehicula urna, eu dapibus leo velit vitae mi. Nunc vel nisi non justo eleifend aliquet. Fusce fringilla tristique tortor a dapibus. Cras nunc eros, efficitur eu posuere a, hendrerit quis nunc. In sit amet turpis nec ligula interdum laoreet. Proin porta bibendum purus, vitae dapibus nibh blandit ac. Donec efficitur finibus elit suscipit sollicitudin. Curabitur nec vestibulum tortor. Aenean at enim sagittis, eleifend justo tincidunt, interdum leo. Duis id metus sed nibh tempus consectetur eu nec enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt, urna ac iaculis gravida, augue neque vehicula urna, eu dapibus leo velit vitae mi. Nunc vel nisi non justo eleifend aliquet. Fusce fringilla tristique tortor a dapibus. Cras nunc eros, efficitur eu posuere a, hendrerit quis nunc. In sit amet turpis nec ligula interdum laoreet. Proin porta bibendum purus, vitae dapibus nibh blandit ac. Donec efficitur finibus elit suscipit sollicitudin. Curabitur nec vestibulum tortor. Aenean at enim sagittis, eleifend justo tincidunt, interdum leo. Duis id metus sed nibh tempus consectetur eu nec enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt, urna ac iaculis gravida, augue neque vehicula urna, eu dapibus leo velit vitae m
+                                Nunc vel nisi non justo eleifend aliquet. Fusce fringilla tristique tortor a dapibus. Cras nunc eros, efficitur eu posuere a, hendrerit quis nunc. In sit amet turpis nec ligula interdum laoreet. Proin porta bibendum purus, vitae dapibus nibh blandit ac. Donec efficitur finibus elit suscipit sollicitudin. Curabitur nec vestibulum tortor. Aenean at enim sagittis, eleifend justo tincidunt, interdum leo. Duis id metus sed nibh tempus consectetur eu nec enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt, urna ac iaculis gravida, augue neque vehicula urna, eu dapibus leo velit vitae mi. 
+                                    i.</p>
+                        </div>
+
+                        <div class="article-comment-share-wrap">
+                            <a href="#" class="article-comments-btn">All comments...(1)</a>
+                            <div class="article-share-buttons">
+                                <p class="article-share-title">Share: </p>
+                                <a href="#" class="author-links"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                                <a href="#" class="author-links"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                <a href="#" class="author-links"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                                <a href="#" class="author-links"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="article-comments-section">
+                            <div class="article-comments-wrap">
+                                <div class="article-comments-item">
+                                    <div class="article-comments-item-name-date-wrap">
+                                        <p class="article-comments-item-name">Ilya</p>
+                                        <p class="article-comments-item-name-date">01.08.2020    10:55</p>
+                                    </div>
+                                    <div class="article-comments-item-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt, urna ac iaculis gravida, augue neque vehicula urna, eu dapibus leo velit vitae mi. Nunc vel nisi non justo eleifend aliquet. Fusce fringilla tristique tortor a dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt, urna ac iaculis gravida, augue neque vehicula urna, eu dapibus leo velit vitae mi. Nunc vel nisi non justo eleifend aliquet. Fusce fringilla tristique tortor a dapibusLorem ipsum dolor sit amet.
+                                    </div>
+                                    <a href="#" class="article-comments-item-reply-btn">Reply</a>
+                                </div>
+    
+                                <div class="article-comments-item-reply">
+                                    <div class="article-comments-item-name-date-wrap">
+                                        <p class="article-comments-item-name">Ilya</p>
+                                        <p class="article-comments-item-name-date">01.08.2020    10:55</p>
+                                    </div>
+                                    <div class="article-comments-item-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt, urna ac iaculis gravida, augue neque vehicula urna, eu dapibus leo velit vitae mi. Nunc vel nisi non justo eleifend aliquet. Fusce fringilla tristique tortor a dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt, urna ac iaculis gravida, augue neque vehicula urna, eu dapibus leo velit vitae mi. Nunc vel nisi non justo eleifend aliquet. Fusce fringilla tristique tortor a dapibusLorem ipsum dolor sit amet.
+                                    </div>
+                                    <a href="#" class="article-comments-item-reply-btn">Reply</a>
+                                </div>
+    
+                                <div class="article-comments-item">
+                                    <div class="article-comments-item-name-date-wrap">
+                                        <p class="article-comments-item-name">Ilya</p>
+                                        <p class="article-comments-item-name-date">01.08.2020    10:55</p>
+                                    </div>
+                                    <div class="article-comments-item-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt, urna ac iaculis gravida, augue neque vehicula urna, eu dapibus leo velit vitae mi. Nunc vel nisi non justo eleifend aliquet. Fusce fringilla tristique tortor a dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt, urna ac iaculis gravida, augue neque vehicula urna, eu dapibus leo velit vitae mi. Nunc vel nisi non justo eleifend aliquet. Fusce fringilla tristique tortor a dapibusLorem ipsum dolor sit amet.
+                                    </div>
+                                    <a href="#" class="article-comments-item-reply-btn">Reply</a>
+                                </div>
+                            </div>
+                            <div class="article-comments-form-wrap">
+                                <h3 class="article-comments-form-title">Leave a comment</h3>
+                                <form action="#" class="article-comments-form">
+                                    <input class="article-comments-form-input" type="text" placeholder="Name">
+                                    <input class="article-comments-form-input" type="email" placeholder="E-mail">
+                                    <textarea class="article-comments-form-message" name="message" id="comment-message" cols="30" rows="10" placeholder="Comment text"></textarea>
+                                    <div class="article-comments-form-btn-wrap">
+                                        <input class="article-comments-form-btn" type="submit" value="Leave a comment">
+                                    </div>                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </article>
+    </main>
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-menu">
+                <ul class="footer-menu-list">
+                    <li class="footer-menu-items"><a href="#" class="footer-menu-links">Home</a></li>
+                    <li class="footer-menu-items"><a href="#" class="footer-menu-links">About Me</a></li>
+                    <li class="footer-menu-items"><a href="#" class="footer-menu-links">work</a></li>
+                    <li class="footer-menu-items"><a href="blog.html" class="footer-menu-links">Blog</a></li>
+                </ul>
+
+                <form class="footer-search-form">
+                    <input class="footer-search" type="text" placeholder="Search...">
+                    <button class="footer-search-btn" type="submit"></button>
+                </form>
+            </div>
+
+            <div class="footer-social">
+                <a href="#" class="footer-social-item"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" class="footer-social-item"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" class="footer-social-item"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#" class="footer-social-item"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="footer-copyright">
+                <p class="footer-coptright-text">Copyright &copy; 2020. Design by <a href="#" class="footer-copyright-link">Ilya Shpakovsky</a>. Developing by <a href="#" class="footer-copyright-link">Dima Krupa</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+
+</html>

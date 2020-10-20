@@ -1,0 +1,258 @@
+.header-about-page {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #f3f1ef;
+    padding: 175px 0;
+    margin-top: 50px;
+}
+
+.header-about-page-text-wrap {
+    text-align: center;
+}
+
+.header-about-page-title {
+    font-size: 50px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.about {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img-wrap {
+    margin-right: 50px;
+}
+
+.about-img {
+    border-radius: 100%;
+    width: 370px;
+    filter: drop-shadow(5.472px 15.035px 16px rgba(0,0,0,0.45));
+}
+
+.about-author {
+    margin-top: 50px;
+}
+
+.about-author-text {
+}
+.about-author-title {
+    font-size: 39px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-author-subtitle {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-author-article {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-author-contacts-title {
+    margin-top: 50px;
+    font-size: 25px;
+    line-height: 21px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-me__social {
+    justify-content: start;
+    margin-top: 25px;
+}
+
+.about-author-contact-form {
+    max-width: 430px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-author-contact-form-input {
+    border-radius: 17px;
+    border: 0.5px solid #9b9b9b;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #969593;
+    font-weight: 400;
+}
+
+.about-author-contact-form-message {
+    height: 250px;
+    max-width: 100%;
+    border-radius: 17px;
+    border: 0.5px solid #9b9b9b;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #969593;
+    font-weight: 400;
+}
+
+.about-author-contact-form-btn {
+    padding: 15px 30px;
+    max-width: 210px;
+    border-radius: 25px;
+    filter: drop-shadow(1.71px 4.698px 8px rgba(23,105,255,0.2));
+    background-color: #fee002;
+    border: none;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+
+.about-author-contact-form-btn:hover {
+    background-color: #d3bc0d;
+}
+
+/* Page about - mobile */
+
+@media (max-width: 992px) {
+    .header-about-page {
+        padding: 130px 0;
+        margin-top: 30px;
+    }
+
+    .about-img {
+        width: 310px;
+    }
+
+    .about-author-title {
+        font-size: 30px;
+    }
+
+    .about-author-subtitle {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-img-wrap {
+        margin-right: 30px;
+    }
+    
+    .about-img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 830px) {
+    .about-author {
+        margin-top: 0px;
+    }
+
+    .about-me__social-item {
+        margin-right: 20px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .header-about-page-title {
+        font-size: 40px;
+    }
+
+    .header-about-page {
+        padding: 90px 0;
+    }
+}
+
+@media (max-width: 710px) {
+    .about-me__social {
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .about-me__social-item {
+        margin-top: 10px;
+    } 
+}
+
+@media (max-width: 620px) {
+    .about {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .about-img-wrap {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .about-author {
+        margin-top: 20px;
+    }
+
+    .about-author-title, .about-author-subtitle {
+        text-align: center;
+    }
+
+    .about-author-contacts {
+        text-align: center;
+    }
+
+    .about-me__social {
+        justify-content: center;
+    }
+
+    .about-author-contact-form {
+        align-items: center;
+        max-width: 100%
+    }
+
+    .about-author-contact-form {
+        margin-top: 20px;
+    }
+
+    .about-author-contact-form-input, .about-author-contact-form-message {
+        font-size: 14px;
+    }
+
+    .about-author-contact-form-message {
+        width: 450px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-about-page {
+        margin-top: 20px;
+    }
+
+    .about-author-contact-form-btn {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header-about-page {
+        padding: 60px 0;
+    }
+
+    .header-about-page-title {
+        font-size: 30px;
+    }
+}
+
+
+

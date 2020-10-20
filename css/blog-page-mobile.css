@@ -1,0 +1,127 @@
+@media (max-width: 1140px) {
+    .article {
+        max-width: 660px;
+    }
+}
+
+@media (max-width: 768px) {
+    .article-comments-form-wrap {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .article-comments-form-title {
+        font-size: 18px;
+    }
+
+    .article-comments-form-btn {
+        padding: 5px 15px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .blog-page-wrap {
+        flex-direction: column-reverse;
+        margin-top: 15px;
+    }
+
+    .article-comments-form-wrap {
+        margin-bottom: 0;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .sidebar-author-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .sidebar-contact {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .sidebar-contact-title {
+        font-weight: 700;
+    }
+
+    .sidebar-contact-form-wrap {
+        margin-top: 10px;
+    }
+
+    .sidebar-contact-form {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sidebar-contact-input {
+        width: 85%;
+        margin-top: 10px;
+    }
+
+    .sidebar-contact-text {
+        width: 85%;
+        height: 70px;
+        margin-top: 10px;
+    }
+
+    .sidebar-contact-form-btn {
+        display: block;
+        width: 85%;
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-blog-page {
+        margin-top: 20px;
+        padding: 35px 0;
+    }
+
+    .header-blog-page-title {
+        font-size: 25px;
+    }
+
+    .header-blog-page-desc {
+        font-size: 14px;
+    }
+
+    .article-title {
+        font-size: 20px;
+    }
+
+    .article-author-name, .article-date {
+        font-size: 14px;
+    }
+
+    .article-text-wrap {
+        margin-top: 15px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .sidebar-author-wrap {
+        flex-direction: column;
+    }
+
+    .sidebar-contact {
+        margin-left: 0px;
+        margin-top: 30px;
+        text-align: center;
+    }
+}
